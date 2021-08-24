@@ -18,7 +18,7 @@ After reducing **6 out of 13 features** with the help of feature_importances fun
 
 
 ## part2:
-Prediction for Fashion-MNIST Data set.
+Prediction of Fashion-MNIST Dataset.
 In this part, I first presented basic information and then started testing models (no pre-processing was needed besides dividing by 255).  
 I have used some basic models and also in Ensemble models the results are as follows:  
 **result befor PCA**
@@ -31,27 +31,16 @@ I have used some basic models and also in Ensemble models the results are as fol
 | GradientBoosting   | 83.4  | 
 
 After getting the results on all the Data I tried to reduce dimensions with PCA, After printing the cumsum of "pca.explained_variance_ratio_" I chose 200 n_components because it represents the vast majority of the Data.  
-|    **result after PCA**    |
+**result after PCA**    
 | Model      | mean accuracy |
 | ----------- | -----------  |
 | LogisticRegression | 85.1  |
 | xgboost            | 88.7  |
  
+My final result is that xgboost with PCA use only 25% of the data with 88.79% mean accurancy (vs 100% of the data with 90.3%) so we will prefer to use the model after PCA!
 
 
-
-85.100000
-xgboost	90.308333
-Lr_pca	85.125000
-xgboost_pca	88.791667
-
-
-
-
-
-*(you can read all about the functions in [here](https://github.com/ortrsa/Ex3/wiki/Functions-explanation).)*
-  
-**part3:** compare running time and correctness between this project, [Ex2](https://github.com/ortrsa/ex2)  and [networkx](https://github.com/networkx/networkx).  
+**part3:** Prediction of Dogs vs. Cats dataset  
 
   - To see time compareition on circle graphs click **[here](https://github.com/ortrsa/Ex3/wiki/Time-comparison_-new)**.
   - For correctness report outputs click **[here](https://github.com/ortrsa/Ex3/wiki/circle-graph-time-comparison-and-correctness-check)**
@@ -102,4 +91,4 @@ We are able to make these lists using [BFS](https://en.wikipedia.org/wiki/Breadt
 
 # About:
 This project is part of oop course of Ariel university and made for study purposes.  
-This project was made by Or Trabelsi and Nadav Epstein, for more information please contact me, email - ortrsa@gmail.com.
+This project was made by Or Trabelsi,  for more information please contact me, email - ortrsa@gmail.com.
