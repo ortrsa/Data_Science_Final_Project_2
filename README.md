@@ -7,16 +7,47 @@
 - In the project I tried to move forward along with the book (Hands-on Machine Learning) and slowly improve the models.
 - This project was built from 4 parts:    
 
-**part1:** improving the project from last semester with the new knowledge we gained in the semester,  
+## part1:
+improving the project from last semester with the new knowledge we gained in the semester,  
 In this part I started directly from the Ensemble Learning because in its previous part we tested a lot of regular models,  
 The main models were: Ada boost(with DecisionTree), Xgboost and RandomForest.  
-In this case the Ada boost give us the best result (73.27%) the Ada boost improved the result by 1.3% (from last semester).
+In this case the Ada boost give us the best result **(73.27%)** the Ada boost improved the result by 1.3% (from last semester).
 Because these are health tests we want to reduce the features as much as possible.  
 A reduction with the help of feature_importances function is more effective then PCA in this case because in this way we can reduce the cost of the tests and make it easier for the subject (Coincidentally, the result is also better).
-After reducing 6 out of 13 features with the help of feature_importances function, we reached 72.77 percent and downloaded almost half of the features.
+After reducing **6 out of 13 features** with the help of feature_importances function, we reached **72.77** percent and downloaded almost half of the features!
 
 
-**part2:** implement `GraphAlgo` class that contains more advanced functions on graph.      
+## part2:
+Prediction for Fashion-MNIST Data set.
+In this part, I first presented basic information and then started testing models (no pre-processing was needed besides dividing by 255).  
+I have used some basic models and also in Ensemble models the results are as follows:  
+**result befor PCA**
+| Model      | mean accuracy |
+| ----------- | -----------  |
+| KNeighbors         | 85.0  |
+| LogisticRegression | 85.1  |
+| DecisionTree       | 79.4  |
+| xgboost            | 90.3  |
+| GradientBoosting   | 83.4  | 
+
+After getting the results on all the Data I tried to reduce dimensions with PCA, After printing the cumsum of "pca.explained_variance_ratio_" I chose 200 n_components because it represents the vast majority of the Data.  
+|    **result after PCA**    |
+| Model      | mean accuracy |
+| ----------- | -----------  |
+| LogisticRegression | 85.1  |
+| xgboost            | 88.7  |
+ 
+
+
+
+85.100000
+xgboost	90.308333
+Lr_pca	85.125000
+xgboost_pca	88.791667
+
+
+
+
 
 *(you can read all about the functions in [here](https://github.com/ortrsa/Ex3/wiki/Functions-explanation).)*
   
