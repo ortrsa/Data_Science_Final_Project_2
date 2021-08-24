@@ -6,6 +6,7 @@
 - In this project, we walked through machine learning from basic models to more advanced one.
 - In the project I tried to move forward along with the book (Hands-on Machine Learning) and slowly improve the models.
 - This project was built from 4 parts:    
+  
 
 ## part1:
 - Improving the project from last semester with the new knowledge we gained in the semester. 
@@ -24,8 +25,8 @@ Because these are health tests we want to reduce the features as much as possibl
 | AdaBoost    | 13           |     73.27    |
 | AdaBoost    | 6            |     72.77    |
 
-
-
+  
+  
 ## part2:
 - Prediction of Fashion-MNIST Dataset.
 - In this part, first i presented basic information and then started testing models (no pre-processing was needed besides dividing by 255).  
