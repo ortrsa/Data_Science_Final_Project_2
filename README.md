@@ -24,6 +24,8 @@ Because these are health tests we want to reduce the features as much as possibl
 | AdaBoost    | 13           |     73.27    |
 | AdaBoost    | 6            |     72.77    |
 
+
+
 ## part2:
 - Prediction of Fashion-MNIST Dataset.
 - In this part, first i presented basic information and then started testing models (no pre-processing was needed besides dividing by 255).  
@@ -46,6 +48,8 @@ After getting the results on all the Data I tried to reduce dimensions with PCA,
 | xgboost            | 88.7  |
  
 My final result is that xgboost with PCA use only 25% of the data with 88.79% mean accurancy (vs 100% of the data with 90.3%) so we will prefer to use the model after PCA!
+
+
 
 
 ## part3:
