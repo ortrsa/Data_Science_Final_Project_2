@@ -7,6 +7,7 @@
 - In the project I tried to move forward along with the book (Hands-on Machine Learning) and slowly improve the models.
 - This project was built from 4 parts:    
   
+<br/>
 
 ## part1:
 - Improving the project from last semester with the new knowledge we gained in the semester. 
@@ -25,7 +26,9 @@ Because these are health tests we want to reduce the features as much as possibl
 | AdaBoost    | 13           |     73.27    |
 | AdaBoost    | 6            |     72.77    |
 
-  
+<br/>
+
+
   
 ## part2:
 - Prediction of Fashion-MNIST Dataset.
@@ -51,7 +54,7 @@ After getting the results on all the Data I tried to reduce dimensions with PCA,
 My final result is that xgboost with PCA use only 25% of the data with 88.79% mean accurancy (vs 100% of the data with 90.3%) so we will prefer to use the model after PCA!
 
 
-
+<br/>
 
 ## part3:
 - Prediction of Dogs vs. Cats dataset  
