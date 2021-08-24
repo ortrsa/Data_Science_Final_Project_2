@@ -115,7 +115,7 @@ My final result is that xgboost with PCA use only 25% of the data with 88.79% me
 | Stacking           | 95.8  |
 
 - I decided to stick with the xgboost before the PCA.
-- The result of validation Data wes **88.44%** when the main error is when the model predict spontan but in fact it should be synchronized.
+- The result of xgboost on the validation Data was **88.44%** when the main error is when the model predict spontan but in fact it should be synchronized.
 
 
 # About:
