@@ -29,6 +29,7 @@ Because these are health tests we want to reduce the features as much as possibl
 - In this part, first i presented basic information and then started testing models (no pre-processing was needed besides dividing by 255).  
 - I have used some basic models and also in Ensemble models the results are as follows:  
 **result befor PCA**
+
 | Model      | mean accuracy |
 | ----------- | -----------  |
 | KNeighbors         | 85.0  |
@@ -50,7 +51,8 @@ My final result is that xgboost with PCA use only 25% of the data with 88.79% me
 ## part3:
 - Prediction of Dogs vs. Cats dataset  
 - At first I resized all the images using an [Bicubic interpolation](https://en.wikipedia.org/wiki/Bicubic_interpolation), converted each image to a row in a large table (50000×12289),then i label the images.
-- I have used some basic models and also in Ensemble models for after getting the result i try to reduce dimensions in 2 ways, PCA and convert the images from RGB to grayscale the results are as follows: 
+- I have used some basic models and also in Ensemble models for after getting the result i try to reduce dimensions in 2 ways, PCA and convert the images from RGB to grayscale the results are as follows:
+
 | Model      | mean accuracy |
 | ----------- | -----------  |
 | LogisticRegression | 60.0  |
@@ -63,7 +65,7 @@ My final result is that xgboost with PCA use only 25% of the data with 88.79% me
 | RandomForest gray  | 64.7  | 
 | xgboost gray       | 64.6  |
 
-- features vs accuracy:
+**features vs accuracy:**
 
 | Model       | features     | mean accuracy |
 | ----------- | -----------  | -----------  |
