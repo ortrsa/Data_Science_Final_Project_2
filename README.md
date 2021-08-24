@@ -9,7 +9,7 @@
   
 <br/>
 
-## part1:
+## Notebook 1:
 - Improving the project from last semester with the new knowledge we gained in the semester. 
 - In this part I started directly from the Ensemble Learning because in its previous part we tested a lot of regular models.  
 - The main models were: Ada boost(with DecisionTree), Xgboost and RandomForest.  
@@ -30,7 +30,7 @@ Because these are health tests we want to reduce the features as much as possibl
 
 
   
-## part2:
+## Notebook 2:
 - Prediction of Fashion-MNIST Dataset.
 - In this part, first i presented basic information and then started testing models (no pre-processing was needed besides dividing by 255).  
 - I have used some basic models and also in Ensemble models the results are as follows:  
@@ -56,7 +56,7 @@ My final result is that xgboost with PCA use only 25% of the data with 88.79% me
 
 <br/>
 
-## part3:
+## Notebook 3:
 - Prediction of Dogs vs. Cats dataset  
 - At first I resized all the images using an [Bicubic interpolation](https://en.wikipedia.org/wiki/Bicubic_interpolation), converted each image to a row in a large table (50000×12289),then i label the images.
 - I have used some basic models and also in Ensemble models for after getting the result i try to reduce dimensions in 2 ways, PCA and convert the images from RGB to grayscale the results are as follows:
@@ -83,52 +83,11 @@ My final result is that xgboost with PCA use only 25% of the data with 88.79% me
 
 - Because the accuracy percentages are low I would choose the most accurate model but if we lack processing power we will selecte the model after the PCA!
 
-## part 4
+## Notebook 4
 
 
   
-# Model explain
- 
-
-
-
-
-
-# How it's work..
-After initializing the graph, the fun part begins.  
-In GraphAlgo we implement advanced functions with some familiar algorithms like BFS, and dijkstra's.  
-
-
-`shorest_path()` - use [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to find the shortest path In the most efficient way.  
-**Dijkstra's**  
-
-![Alt Text](https://github.com/ortrsa/Ex3/blob/master/img/dWtprX5.gif)  
-
-
-`connected_component()` - make 2 lists, list 1 contain all the nodes that you can get *from* the first node, and list 2 contain all the nodes that can get *to* the first node, and take the intersection between list 1 and 2.  
-We are able to make these lists using [BFS](https://en.wikipedia.org/wiki/Breadth-first_search).  
-**BFS**  
-
-![Alt Text](https://github.com/ortrsa/Ex3/blob/master/img/KcsN.gif)  
-  
-  
-
-
-`plot_graph()` - use [matplotlib](https://matplotlib.org/gallery/index.html) library to draw the graph.  
-
-**A5 graph from data folder**  
-
-![Alt Text](https://github.com/ortrsa/Ex3/blob/master/img/A5_graph.png)
-
-# Links:
-- [Dijkstra's Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-- [BFS - Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)
-- [Directed_graph - Wikipedia](https://en.wikipedia.org/wiki/Directed_graph)
-- [correctness file output - Wiki](https://github.com/ortrsa/Ex3/wiki/circle-graph-time-comparison-and-correctness-check)
-- [Ex2](https://github.com/ortrsa/ex2)
-- [Functions - Wiki](https://github.com/ortrsa/Ex3/wiki/Functions-explanation)
-- *(you can see the structure of the project in this [WikiPage](https://github.com/ortrsa/Ex3/wiki/Inherent-diagram).)*
 
 # About:
 This project is part of oop course of Ariel university and made for study purposes.  
-This project was bmade by Or Trabelsi, for more information please contact me, email - ortrsa@gmail.com.
+This project was made by Or Trabelsi, for more information please contact me, email - ortrsa@gmail.com.
