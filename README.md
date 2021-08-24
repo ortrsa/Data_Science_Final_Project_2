@@ -85,8 +85,26 @@ My final result is that xgboost with PCA use only 25% of the data with 88.79% me
 
 ## Notebook 4
 
+- classify between three situations in the way people communicate with each other, Spontan, Sync and Alone.
+- At first I read all the Data from the csv files and built one big Data frame.
+- Drop erorrs from the DF (right heands in Alone, null valus etc.) and tack every 10th row.
+- After the pre prossing i add some visualizations
+- Modeling with diffrent models:
 
-  
+| Model      | mean accuracy |
+| ----------- | -----------  |
+| LogisticRegression | 89.2  |
+| RandomForest       | 81.5  |
+| Naive Bayes        | 86.6  |
+| AdaBoost           | 67.6  |
+| xgboost            | 98.4  |
+| voting             | 94.7  | 
+| Stacking           | 97.9  |
+| RandomForest gray  | 64.7  | 
+| xgboost gray       | 64.6  |
+
+
+
 
 # About:
 This project is part of oop course of Ariel university and made for study purposes.  
