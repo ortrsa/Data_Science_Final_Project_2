@@ -100,10 +100,22 @@ My final result is that xgboost with PCA use only 25% of the data with 88.79% me
 | xgboost            | 98.4  |
 | voting             | 94.7  | 
 | Stacking           | 97.9  |
-| RandomForest gray  | 64.7  | 
-| xgboost gray       | 64.6  |
 
 
+**After PCA**
+
+| Model      | mean accuracy |
+| ----------- | -----------  |
+| LogisticRegression | 87.2  |
+| RandomForest       | 80.0  |
+| Naive Bayes        | 86.5  |
+| AdaBoost           | 80.6  |
+| xgboost            | 95.7  |
+| voting             | 94.3  | 
+| Stacking           | 95.8  |
+
+- I decided to stick with the xgboost before the PCA.
+- The result of validation Data wes **88.44%** when the main error is when the model predict spontan but in fact it should be synchronized.
 
 
 # About:
