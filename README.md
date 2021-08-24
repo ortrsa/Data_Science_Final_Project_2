@@ -119,5 +119,5 @@ My final result is that xgboost with PCA use only 25% of the data with 88.79% me
 
 
 # About:
-This project is part of oop course of Ariel university and made for study purposes.  
+This project is part of Data Science course of Ariel university and made for study purposes.  
 This project was made by Or Trabelsi, for more information please contact me, email - ortrsa@gmail.com.
